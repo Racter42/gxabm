@@ -1,8 +1,12 @@
+#Benchmarking workflow with DNA dataset
 - output_history_base_name: DNA 16C 50G-MEM
-  runs:
+  runs:  
   - history_name: HG00171
     inputs:
+    #Dataset size: 2.6 GB / 108bp / 40% GC
+    #Source: https://www.internationalgenome.org/data-portal/sample/HG00171
     - dataset_id: ERR013101_1.fastq.gz
       name: FASTQ Dataset
+  #workflow located at: 
   workflow_id: Benchmarking DNA Cloud Costs
 
